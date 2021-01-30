@@ -1,0 +1,178 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF
+}
+body {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none; 
+}
+/* Logo */
+.logo {
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.web { 
+    color: var(--accent-color);
+}
+.studio-header {
+    color:var(--primary-text-color);
+}
+/* site nav */
+.nav {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav .link {
+    color: var(--primary-text-color);
+}
+.nav .link:hover, .nav .link:focus {
+    color: var(--accent-color);
+}
+.nav .link.current {
+    color: var(--accent-color);
+}
+.contacts {
+    color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contacts:hover, .contacts:focus {
+    color: var(--accent-color);
+}
+/* мейн */
+.main-banner {
+background: #2F303A;
+}
+.main-banner-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.main-banner-title, .main-banner-link {
+    color: var(--white-color);
+}
+.activity-title {
+    font-weight: bold;
+    line-height: 1.14;
+}
+.items-text {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team-title, .product-title {
+    color: var(--primary-text-color);
+}
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+}
+/* footer */
+footer {
+    background-color: #2F303A;
+}
+.studio-footer, .city {
+    color: var(--white-color);
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    line-height: 1.71;
+}
+.contacts-footer:hover, .contacts-footer:focus {
+    color: var(--accent-color);
+}
+.city {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+/* button */
+.button {
+    font-family: inherit;
+    color: var(--primary-text-color);
+    background-color: #F5F4FA; 
+}
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-size: 16px;
+    line-height: 1.86;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+}
+.button.secondary {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.button.secondary:hover, .button.secondary:focus {
+    background-color: var(--accent-color); 
+    color: white;
+}
+/* Портфолио */
+.portfolio {
+    background-color: #E5E5E5;
+}
+.product-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.product-text {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.86;
+}
+
+
+/* <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> */
+/* Палитра цветов */
+
+/* цвет основного текста #212121, 100 % */
+
+/* вторичный цвет текста #757575, 100 % */
+
+/* белый цвет #FFFFFF, 100 % */
+
+/* белый с прозрачностю rgba(255, 255, 255, 0.6) */
+
+/* акцентный цвет #2196F3 */
+
+/* цвет фона белый #FFFFFF */
+
+/* цвет фона шапки и подвала #2F303A */
+
+/* цвет фона страницы #E5E5E5 (светлый) */
+
+/* цвет фона страницы #F5F4FA (серый) */
